@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Joro/Eclipse-Extra/graphview-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Joro/Eclipse-Extra/Shimmer Android Driver Library - 1.3/Shimmer Android Driver/Additional Required Libraries/AndroidBluetoothLibrary.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Joro/Eclipse-Extra/Shimmer Android Driver Library - 1.3/Shimmer Android Driver/Additional Required Libraries/commons-math-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Joro/Eclipse-Extra/Shimmer Android Driver Library - 1.3/Shimmer Android Driver/Additional Required Libraries/guava-12.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Joro/Eclipse-Extra/Shimmer Android Driver Library - 1.3/Shimmer Android Driver/Additional Required Libraries/vecmath-1.3.1.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DTU Biosense</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Choose Sensors</string>
+    <string name="menu_title">DTU Biosense</string>
+    <string name="menu_bluetooth">Connect Bluetooth</string>
+    <string name="menu_process">Process ECG Offline</string>
+    <string name="menu_scan">Scan Devices</string>
+    <string name="menu_viewsensor">Plot Streaming Data</string>
+    <string name="menu_commands">Shimmer Settings</string>
+    <string name="menu_logfile">Log File</string>
+    <string name="menu_stream">Start Streaming Data</string>
+    <string name="button_scan">Scan Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="select_device">select a Shimmer to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="scanning">Scanning for devices...</string>
+    <string name="text_logging">Not logging</string>
+    <string name="text_connection">Connected</string>
+    <string name="title_connected_to">Connected to </string>
+    <string name="title_not_connected">Not connected</string>
+    <string name="title_connecting">Connecting...</string>
+    <string name="logfile">LogFile</string>
+    <string name="connect">Connect a Shimmer</string>
+    <string name="disconnect">Disconnect Shimmer</string>
+    <string name="startstream">Start streaming</string>
+    <string name="stopstream">Stop streaming</string>
+    <string name="title_sensor1">Sensor 1</string>
+    <string name="title_sensor2">Sensor 2</string>
+    <string name="title_sensor3">Sensor 3</string>
+    <string name="button_confirm">OK</string>
+    <string name="text_filename_prompt">Filename to be processed including file extension (Example: &quot;test.csv&quot;)</string>
+    <string name="title_filename_dialog">Filename to Process</string>
+    <string name="commands">Shimmer Command</string>
+    <string name="prompt_logfile">File Name (must end in .csv to be saved in \SDcard\DTU_Biosense)):</string>
+
+</resources>

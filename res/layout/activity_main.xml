@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/title_right_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:gravity="center_vertical"
+            android:text="@string/text_logging" />
+
+        <TextView
+            android:id="@+id/title_left_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:gravity="center_vertical"
+            android:text="@string/text_connection" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/graph1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:orientation="horizontal"
+            android:paddingBottom="3sp" />
+
+        <LinearLayout
+            android:id="@+id/graph2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:orientation="horizontal"
+            android:paddingBottom="3sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" >
+
+        <TextView
+            android:id="@+id/LabelSensor1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:text="@string/title_sensor1"
+            android:textColor="#F00"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/LabelSensor2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:text="@string/title_sensor2"
+            android:textColor="#0F0"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/LabelSensor3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:text="@string/title_sensor3"
+            android:textColor="#00F"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
