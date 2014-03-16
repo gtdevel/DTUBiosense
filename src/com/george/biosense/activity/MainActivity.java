@@ -774,8 +774,7 @@ public class MainActivity extends ServiceActivity {
 						// processing you might want to change
 						// the member of the calibratedDataArray you are using.
 						// This implementation is specific for ECGs.
-						processedCalValue = mQRSDetector.isQRS(Double
-								.toString(calibratedDataArray[0]));
+						processedCalValue = mQRSDetector.isQRS(calibratedDataArray[0]);
 						int subSamplingCount = 0;
 
 						if (mService.getSamplingRate(mBluetoothAddress) > maxNumberofSamplesPerSecond) {
@@ -1036,7 +1035,7 @@ public class MainActivity extends ServiceActivity {
 						// Get QRS detection
 						// Pass in ECG LA_LL calibrated value
 						inValue = Double.parseDouble(lineValues[1]);
-						outValue = mOfflineQRSDetector.isQRS(lineValues[1]);
+						outValue = mOfflineQRSDetector.isQRS(inValue);
 						output = String.valueOf(outValue);
 					} else {
 						output = lineValues[1];

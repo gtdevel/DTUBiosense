@@ -60,9 +60,8 @@ public class QRSDetector {
 	 *            Sample value from file containing ECG
 	 * @return Location of QRS if detected, or -1 otherwise
 	 */
-	public double isQRS(String sample) {
+	public double isQRS(double sampleIn) {
 
-		sampleIn = Double.parseDouble(sample);
 		// Shifting arrays down by one to store new values from filtering
 		// process
 		System.arraycopy(input_buff, 0, input_buff, 1, input_buff.length - 1);
